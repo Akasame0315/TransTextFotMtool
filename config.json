@@ -1,0 +1,22 @@
+{
+  "INPUT_FILE": "output.txt",
+  "translator": "gpt",
+  "_comment": "這是傳送一次請求要翻譯的數量",
+  "max_lines": "5",
+  "deepl": {
+    "api_key": "",
+    "use_free_api": true,
+    "source_lang": "JA",
+    "target_lang": "ZH-Hant"
+  },
+  "gpt": {
+    "api_key": "",
+    "model": "gpt-3.5-turbo"
+  },
+  "token_limit": {
+    "deepl": 4500,
+    "google": 4900,
+    "papago": 4900,
+    "gpt": 3000
+  }
+}
